@@ -1,0 +1,266 @@
+﻿<GeoConnecTable_SLPHotspots imageRoot="E:\SLPPopups" 
+        verticalShift="0.43" 
+        pixelToDegree="0.000045"
+        iconPath="reservaflorafauna_prendido.png"
+        imageFlipDelay="60"
+        maxLabelAltitude="5000000.0"
+        minLabelAltitude="11000.0"
+        maxIconAltitude="50000000.0"
+        minIconAltitude="11000.0"
+        maxAltitude="700000.0"
+        minAltitude="1000.0"
+        triggerAltitude="5000.0"
+        >
+
+<HotSpot  
+        Latitude="23.222356" Longitude="-100.9" 
+        LabelName="Wirikuta"
+        horizontalLabelOffset="10">
+            <image sequenceNumber="1" imagename="PNGs\wirikuta_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\wirikuta_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\wirikuta_sm3.png"/>
+</HotSpot>
+
+<HotSpot  
+        Latitude="22.259419465527035" Longitude="-98.92966655307195" 
+        LabelName="Abra Tanchipa"
+        horizontalLabelOffset="10">
+            <image sequenceNumber="1" imagename="PNGs\Abra_Tanchipa_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Abra_Tanchipa_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Abra_Tanchipa_sm3.png"/>
+</HotSpot>
+<HotSpot  
+        Latitude="18.586687465319507" Longitude="-87.33707852533801" 
+        LabelName="Banco Chinchorro"
+        >
+            <image sequenceNumber="1" imagename="PNGs\Banco_Chinchorro_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Banco_Chinchorro_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Banco_Chinchorro_sm3.png"/>
+</HotSpot>
+<!-- 
+Chamela - Cuixmala -104.99536754793961 19.487824492503282
+Chamela - Cuixmala -105.02060671144032 19.397270593232705
+Chamela - Cuixmala -105.02696554908603 19.394554010134666
+Chamela - Cuixmala -105.03032430015536 19.393988920441473
+Chamela - Cuixmala -105.03085391474745 19.3916764138632
+Chamela - Cuixmala -105.03216179472805 19.388480041965664
+Chamela - Cuixmala -105.0323079427335 19.388443622187744
+Chamela - Cuixmala -105.02924995418374 19.38454461435111
+Chamela - Cuixmala -105.02786240989468 19.38368944627092
+Chamela - Cuixmala -105.02555833273338 19.382085145721533
+Chamela - Cuixmala -105.02582951499139 19.381945733750445
+Chamela - Cuixmala -105.01207832937764 19.37490893678244
+-->
+<HotSpot  
+        Latitude="19.3916764138632" Longitude="-105.03085391474745" 
+        LabelName="Chamela Cuixmala"
+>
+        
+            <image sequenceNumber="1" imagename="PNGs\Chamela_Cuixmala_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Chamela_Cuixmala_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Chamela_Cuixmala_sm3.png"/>
+</HotSpot>
+<HotSpot  
+        Latitude="26.691389" Longitude="-103.745556" 
+        LabelName="Mapimí"
+>
+            <image sequenceNumber="1" imagename="PNGs\Mapimi_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Mapimi_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Mapimi_sm3.png"/>
+</HotSpot>
+ 
+<!--
+Mariposa Monarca -100.16860691779694 19.497983147494388
+Mariposa Monarca -100.26809752275571 19.60171602122681
+Mariposa Monarca -100.17704010008254 19.487930926790362
+Mariposa Monarca -100.16261660189541 19.485142940501593
+Mariposa Monarca -100.20673530372122 19.459167755065373
+Mariposa Monarca -100.24128289647587 19.479052724162813
+Mariposa Monarca -100.23694356281091 19.437635414951767
+Mariposa Monarca -100.25668473495602 19.37748248021641
+Mariposa Monarca -100.23405745413466 19.435391911457312
+Mariposa Monarca -100.18419973191959 19.422237732633103
+-->
+
+<HotSpot  
+        Latitude="19.459167755065373" Longitude="-100.20673530372122" 
+        LabelName="Mariposa Monarca"
+        horizontalLabelOffset="-20"
+        >
+            <image sequenceNumber="1" imagename="PNGs\Mariposa_Monarca_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Mariposa_Monarca_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Mariposa_Monarca_sm3.png"/>
+</HotSpot>
+
+<!--
+Montes Azules -91.13869762177433 16.47075010567696
+-->
+
+<HotSpot 
+        Latitude="16.47075010567696" Longitude="-91.13869762177433" 
+        LabelName="Montes Azules"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Montes_Azules_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Montes_Azules_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Montes_Azules_sm3.png"/>
+</HotSpot>
+
+<!-- 
+Pantanos de Centla -92.45385857215878 18.295522068053014
+Pantanos de Centla -92.15437316886387 18.24357667981857
+-->
+<HotSpot 
+        Latitude="18.295522068053014" Longitude="-92.45385857215878" 
+        LabelName="Pantanos Centla"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Pantanos_Centla_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Pantanos_Centla_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Pantanos_Centla_sm3.png"/>
+</HotSpot>
+<!--
+El Pinacate y Gran Desierto de Altar -113.76151779983411 31.90508166802501
+-->
+<HotSpot 
+        Latitude="31.90508166802501" Longitude="-113.76151779983411" 
+        LabelName="Pinacate"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Pinacate_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Pinacate_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Pinacate_sm3.png"/>
+</HotSpot>
+
+<!--
+Archipi�lago de Revillagigedo -114.72040979709236 18.356888242111356
+Archipi�lago de Revillagigedo -110.97836128676362 18.784650697092523
+Archipi�lago de Revillagigedo -112.06463164080444 18.997460112798347
+Archipi�lago de Revillagigedo -110.81359084352816 19.305953153084705
+-->
+<HotSpot 
+        Latitude="18.83" Longitude="-111.0" 
+        LabelName="Revillagigedo"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Revillagigedo_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Revillagigedo_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Revillagigedo_sm3.png"/>
+</HotSpot>
+
+<!--
+R�a Celest�n -90.39005350272365 20.73509950968113
+-->
+<HotSpot 
+        Latitude="20.73509950968113" Longitude="-90.39005350272365" 
+        LabelName="Ría Celestún"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Ria_Celestun_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Ria_Celestun_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Ria_Celestun_sm3.png"/>
+</HotSpot>
+
+<!--
+Sierra Gorda de Guanajuato -100.10893601125605 21.406974775123253
+Sierra Gorda -99.47750869084503 21.28721664068051
+-->
+<HotSpot 
+        Latitude="21.28721664068051" Longitude="-99.47750869084503" 
+        LabelName="Sierra Gorda"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Sierra_Gorda_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Sierra_Gorda_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Sierra_Gorda_sm3.png"/>
+</HotSpot>
+
+<!--
+Tehuacan-Zapotitlan -97.49823341363643 18.338741585042694
+Tehuacan-Zapotitlan -97.13771503407628 18.273743651795204
+Valle de Cuicatlan -97.10069646339456 17.855865351804
+-->
+<HotSpot 
+        Latitude="17.855865351804" Longitude="-97.13771503407628" 
+        LabelName="Tehuacán Cuicatlán"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Tehuacan_Cuicatlan_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Tehuacan_Cuicatlan_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Tehuacan_Cuicatlan_sm3.png"/>
+</HotSpot>
+
+<!--
+El Vizca�no -113.6177362498949 27.442954622445704
+El Vizca�no -114.15042147668764 27.769414086210112
+El Vizca�no -114.09743414176495 27.99918268712809
+-->
+<HotSpot 
+        Latitude="27.769414086210112" Longitude="-114.15042147668764" 
+        LabelName="El Vizcaíno"
+>
+
+            <image sequenceNumber="1" imagename="PNGs\Vizcaino_sm1.png"/>
+            <image sequenceNumber="2" imagename="PNGs\Vizcaino_sm2.png"/>
+            <image sequenceNumber="3" imagename="PNGs\Vizcaino_sm3.png"/>
+</HotSpot>
+
+<HotSpot 
+        Latitude="19.427050" Longitude="-99.127571" 
+        LabelName="Distrito Federal"
+        horizontalLabelOffset="20"
+        iconPath="ciudades_prendido.png"
+        >
+
+            <image sequenceNumber="1" imagename="Final graphics\distrito_federal_sm.png"/>
+</HotSpot>
+
+<HotSpot 
+        Latitude="20.659649" Longitude="-103.349625" 
+        LabelName="Guadalajara"
+        iconPath="ciudades_prendido.png"
+        >
+
+            <image sequenceNumber="1" imagename="Final graphics\guadalajara_sm.png"/>
+</HotSpot>
+
+<HotSpot 
+        Latitude="25.685255" Longitude="-100.305238" 
+        LabelName="Monterrey"
+        iconPath="ciudades_prendido.png"
+        >
+
+            <image sequenceNumber="1" imagename="Final graphics\monterrey_sm.png"/>
+</HotSpot>
+
+<HotSpot 
+        Latitude="21.9489" Longitude="-99.9933" 
+        LabelName="Rio Verde"
+        iconPath="ciudades_prendido.png"
+        >
+
+            <image sequenceNumber="1" imagename="Final graphics\monterrey_smpruebas.png"/>
+</HotSpot>
+
+<HotSpot 
+        Latitude="22.156470" Longitude="-100.985541" 
+        LabelName="San Luis Potosí"
+        iconPath="ciudades_prendido.png"
+        >
+
+            <image sequenceNumber="1" imagename="Final graphics\san_luis_potosi_sm.png"/>
+</HotSpot>
+
+
+<HotSpot 
+        Latitude="23.222356" Longitude="100.4810121" 
+        LabelName="Wirikuta"
+        iconPath="ciudades_prendido.png"
+        >
+
+            <image sequenceNumber="1" imagename="Final graphics\pruebas.png"/>
+</HotSpot>
+
+
+</GeoConnecTable_SLPHotspots>
+

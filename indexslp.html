@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>San Luis Potosi GeoConnecTable</title>
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+    <meta charset="utf-8" /> 
+    <link rel="stylesheet" type="text/css" href="SLP.css">
+    <script src="./svg.js"></script>
+  </head>
+  <body>
+    <div id='buttons'>
+      <button name="zoomin" onclick="zoomIn()">Zoom in</button>
+      <button name="zoomout" onclick="zoomOut()">Zoom out</button>
+      <br />
+      <button name="connectlocal" onclick="connectLocal()">connect local</button>
+      <button name="connectpi" onclick="connectPi()">connect pi</button>
+      <button name="disconnectws" onclick="disconnectWS()">disconnect WS</button>
+      </div>
+    <div id="map-canvas"></div>
+    <div id="map-mask"><img src="mask.png" width="1080" height="1080"/> </div>
+     
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyD2YKbGfu2sbJl0ap0NnHQiZhBrNvrpKX8&v=3.exp&use_slippy=true"
+    ></script>
+    <script src="SLPConfig.js"></script>
+    <script src="SLP.js"></script>
+    <div id="container" style="position: absolute;top: 0px;left: 422px;">
+      <div id="circletext">
+      </div>
+    </div>
+ 
+    <div class="instructions">
+      <div class="spanish">
+      </div>
+      <div class="english">
+      </div>
+    </div> 
+ 
+    <div class="hotspot" id="site1" icon="reservaflorafauna_prendido_sm.png">
+      <img sequenceNumber="1" src="PNGs/indio_maiz_sm1.png" class="imageOff site1_img"/>
+      <img sequenceNumber="2" src="PNGs/indio_maiz_sm2.png" class="imageOff site1_img"/>
+                  <div class="imageOff site_name">Indio Maíz</div>
+    </div>
+    <div class="hotspot" id="site2" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/hawaii_sm1.png" class="imageOff site2_img"/>
+            <img sequenceNumber="2" src="PNGs/hawaii_sm2.png" class="imageOff site2_img"/> 
+      <div class="imageOff site_name">Papahanaumokuakea</div>
+   </div>
+    <div class="hotspot" id="site3" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/galapagos_sm1.png" class="imageOff site3_img"/>
+            <img sequenceNumber="2" src="PNGs/galapagos_sm2.png" class="imageOff site3_img"/>
+            <img sequenceNumber="3" src="PNGs/galapagos_sm3.png" class="imageOff site3_img"/>
+      <div class="imageOff site_name">Islas Galapagos</div>
+    </div> 
+
+    <div class="hotspot" id="site4" icon="reservaflorafauna_prendido_sm.png">
+           <img sequenceNumber="1" src="PNGs/wirikuta_sm1.png" class="imageOff site4_img"/>
+            <img sequenceNumber="2" src="PNGs/wirikuta_sm2.png" class="imageOff site4_img"/>
+            <img sequenceNumber="3" src="PNGs/wirikuta_sm3.png" class="imageOff site4_img"/>
+      <div class="imageOff site_name">Wirikuta</div>
+    </div>  
+
+    <div class="hotspot" id="site5" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/gogorron_sm1.png" class="imageOff site5_img"/>
+            <img sequenceNumber="2" src="PNGs/gogorron_sm2.png" class="imageOff site5_img"/>
+            <img sequenceNumber="3" src="PNGs/gogorron_sm3.png" class="imageOff site5_img"/>
+            <div class="imageOff site_name">Gogorrón</div>
+    </div>  
+
+
+    <div class="hotspot" id="site6" icon="reservaflorafauna_prendido_sm.png" labelOffset='{"x":16, "y":-5}'>
+            <img sequenceNumber="1" src="PNGs/el_potosi_sm1.png" class="imageOff site6_img"/>
+            <img sequenceNumber="2" src="PNGs/el_potosi_sm2.png" class="imageOff site6_img"/>
+                  <div class="imageOff site_name">El potosí</div>
+    </div>  
+
+    <div class="hotspot"  id="site7" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/cabo_pulmo_sm1.png" class="imageOff site7_img"/>
+            <img sequenceNumber="2" src="PNGs/cabo_pulmo_sm2.png" class="imageOff site7_img"/>
+            <img sequenceNumber="3" src="PNGs/cabo_pulmo_sm3.png" class="imageOff site7_img"/>
+      <div class="imageOff site_name">Cabo Pulmo</div>
+    </div>  
+
+    <div class="hotspot"  id="site8" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/cuatrocienegas_sm1.png" class="imageOff site8_img"/>
+            <img sequenceNumber="2" src="PNGs/cuatrocienegas_sm2.png" class="imageOff site8_img"/>
+            <img sequenceNumber="3" src="PNGs/cuatrocienegas_sm3.png" class="imageOff site8_img"/>
+      <div class="imageOff site_name">Cuatrociénegas</div>
+    </div>  
+
+    <div class="hotspot"  id="site9" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/popo_sm1.png" class="imageOff site9_img"/>
+            <img sequenceNumber="2" src="PNGs/popo_sm2.png" class="imageOff site9_img"/>
+            <img sequenceNumber="3" src="PNGs/popo_sm3.png" class="imageOff site9_img"/>
+      <div class="imageOff site_name">Iztaccíhuatl Popocatépetl</div>
+    </div>  
+
+    <div class="hotspot"  id="site10" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/calakmul_sm1.png" class="imageOff site10_img"/>
+            <img sequenceNumber="2" src="PNGs/calakmul_sm2.png" class="imageOff site10_img"/>
+            <img sequenceNumber="3" src="PNGs/calakmul_sm3.png" class="imageOff site10_img"/>
+      <div class="imageOff site_name">Calakmul</div>
+      
+    </div>  
+
+    <div class="hotspot"  id="site11" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Abra_Tanchipa_sm1.png" class="imageOff site11_img"/>
+            <img sequenceNumber="2" src="PNGs/Abra_Tanchipa_sm2.png" class="imageOff site11_img"/>
+            <img sequenceNumber="3" src="PNGs/Abra_Tanchipa_sm3.png" class="imageOff site11_img"/>
+      <div class="imageOff site_name">Abra Tanchipa</div>
+    </div>  
+
+    <div class="hotspot"  id="site12" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Banco_Chinchorro_sm1.png" class="imageOff site12_img"/>
+            <img sequenceNumber="2" src="PNGs/Banco_Chinchorro_sm2.png" class="imageOff site12_img"/>
+            <img sequenceNumber="3" src="PNGs/Banco_Chinchorro_sm3.png" class="imageOff site12_img"/>
+      <div class="imageOff site_name">Banco Chinchorro</div>
+    </div>  
+
+    <div class="hotspot"  id="site13" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Chamela_Cuixmala_sm1.png" class="imageOff site13_img"/>
+            <img sequenceNumber="2" src="PNGs/Chamela_Cuixmala_sm2.png" class="imageOff site13_img"/>
+            <img sequenceNumber="3" src="PNGs/Chamela_Cuixmala_sm3.png" class="imageOff site13_img"/>
+      <div class="imageOff site_name">Chamela Cuixmala</div>
+    </div>  
+
+    <div class="hotspot"  id="site14" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Mapimi_sm1.png" class="imageOff site14_img"/>
+            <img sequenceNumber="2" src="PNGs/Mapimi_sm2.png" class="imageOff site14_img"/>
+            <img sequenceNumber="3" src="PNGs/Mapimi_sm3.png" class="imageOff site14_img"/>
+      <div class="imageOff site_name">Mapimí</div>
+    </div>  
+
+    <div class="hotspot"  id="site15" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Mariposa_Monarca_sm1.png" class="imageOff site15_img"/>
+            <img sequenceNumber="2" src="PNGs/Mariposa_Monarca_sm2.png" class="imageOff site15_img"/>
+            <img sequenceNumber="3" src="PNGs/Mariposa_Monarca_sm3.png" class="imageOff site15_img"/>
+      <div class="imageOff site_name">Mariposa Monarca</div>
+    </div>  
+    </div>  
+
+    <div class="hotspot"  id="site16" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Montes_Azules_sm1.png" class="imageOff site16_img"/>
+            <img sequenceNumber="2" src="PNGs/Montes_Azules_sm2.png" class="imageOff site16_img"/>
+            <img sequenceNumber="3" src="PNGs/Montes_Azules_sm3.png" class="imageOff site16_img"/>
+      <div class="imageOff site_name">Montes Azules</div>
+    </div>  
+
+
+    <div class="hotspot" id="site17" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Pantanos_Centla_sm1.png" class="imageOff site17_img"/>
+            <img sequenceNumber="2" src="PNGs/Pantanos_Centla_sm2.png" class="imageOff site17_img"/>
+            <img sequenceNumber="3" src="PNGs/Pantanos_Centla_sm3.png" class="imageOff site17_img"/>
+      <div class="imageOff site_name">Pantanos Centla</div>
+    </div>
+    <div class="hotspot" id="site18" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Pinacate_sm1.png" class="imageOff site18_img"/>
+            <img sequenceNumber="2" src="PNGs/Pinacate_sm2.png" class="imageOff site18_img"/>
+            <img sequenceNumber="3" src="PNGs/Pinacate_sm3.png" class="imageOff site18_img"/>
+      <div class="imageOff site_name">Pinacate</div>
+    </div>
+    <div class="hotspot" id="site19" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Revillagigedo_sm1.png" class="imageOff site19_img"/>
+            <img sequenceNumber="2" src="PNGs/Revillagigedo_sm2.png" class="imageOff site19_img"/>
+            <img sequenceNumber="3" src="PNGs/Revillagigedo_sm3.png" class="imageOff site19_img"/>
+      <div class="imageOff site_name">Revillagigedo</div>
+    </div>
+    <div class="hotspot" id="site20" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Ria_Celestun_sm1.png" class="imageOff site20_img"/>
+            <img sequenceNumber="2" src="PNGs/Ria_Celestun_sm2.png" class="imageOff site20_img"/>
+            <img sequenceNumber="3" src="PNGs/Ria_Celestun_sm3.png" class="imageOff site20_img"/>
+      <div class="imageOff site_name">Ría Celestún</div>
+    </div>
+    <div class="hotspot" id="site21" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Sierra_Gorda_sm1.png" class="imageOff site21_img"/>
+            <img sequenceNumber="2" src="PNGs/Sierra_Gorda_sm2.png" class="imageOff site21_img"/>
+            <img sequenceNumber="3" src="PNGs/Sierra_Gorda_sm3.png" class="imageOff site21_img"/>
+      <div class="imageOff site_name">Sierra Gorda</div>
+    </div>
+    <div class="hotspot" id="site22" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Tehuacan_Cuicatlan_sm1.png" class="imageOff site22_img"/>
+            <img sequenceNumber="2" src="PNGs/Tehuacan_Cuicatlan_sm2.png" class="imageOff site22_img"/>
+            <img sequenceNumber="3" src="PNGs/Tehuacan_Cuicatlan_sm3.png" class="imageOff site22_img"/>
+       <div class="imageOff site_name">Tehuacán Cuicatlán</div>
+   </div>
+    <div class="hotspot" id="site23" icon="reservaflorafauna_prendido_sm.png">
+            <img sequenceNumber="1" src="PNGs/Vizcaino_sm1.png" class="imageOff site23_img"/>
+            <img sequenceNumber="2" src="PNGs/Vizcaino_sm2.png" class="imageOff site23_img"/>
+            <img sequenceNumber="3" src="PNGs/Vizcaino_sm3.png" class="imageOff site23_img"/>
+       <div class="imageOff site_name">El Vizcaíno</div>
+   </div>
+    <div class="hotspot" id="site24" icon="ciudades_prendido_sm.png">
+            <img sequenceNumber="1" src="Final graphics/distrito_federal_sm.png" class="imageOff site24_img"/>
+       <div class="imageOff site_name">Distrito Federal</div>
+   </div>
+    <div class="hotspot" id="site25" icon="ciudades_prendido_sm.png">
+            <img sequenceNumber="1" src="Final graphics/guadalajara_sm.png" class="imageOff site25_img"/>
+      <div class="imageOff site_name">Guadalajara</div>
+    </div>
+    <div class="hotspot" id="site26" icon="ciudades_prendido_sm.png">
+            <img sequenceNumber="1" src="Final graphics/monterrey_sm.png" class="imageOff site26_img"/>
+      <div class="imageOff site_name">Monterrey</div>
+    </div>
+    <div class="hotspot" id="site27" icon="ciudades_prendido_sm.png">
+            <img sequenceNumber="1" src="Final graphics/san_luis_potosi_sm.png" class="imageOff site27_img"/>
+      <div class="imageOff site_name">San Luis Potosí</div>
+    </div>
+<ul id="messages"></ul>  
+<script>
+initializemap();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

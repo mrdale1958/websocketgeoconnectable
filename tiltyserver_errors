@@ -1,0 +1,890 @@
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+Traceback (most recent call last):
+  File "tiltyserver.py", line 414, in <module>
+    asyncio.get_event_loop().run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 331, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1262, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 441, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 407, in tilt
+    await websocket.send(spindata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, no reason.
+Exception in connection handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/websockets/server.py", line 78, in handler
+    yield from self.ws_handler(self, path)
+  File "tiltyserver.py", line 405, in tilt
+    await websocket.send(tiltdata.gestureProcessor.nextAction())
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 307, in send
+    yield from self.ensure_open()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 391, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
